@@ -1,5 +1,5 @@
 baseURL = "https://herculan0.github.io"
-languageCode = "en-us"
+languageCode = "pt-br"
 theme = "aafu"
 
 [deployment]
@@ -13,14 +13,14 @@ theme = "aafu"
     cacheControl = "max-age=31536000, no-transform, public"
 
 [params]
-    title = "HerculanOps"
+    title = "42"
     author = "Lucas Herculano"
-    description = "Pensamentos, avoam como o vento"
+    description = "A vida, o Universo e tudo mais, avoam como o vento"
     copyright = "Herculano's 2020"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
-        mainTheme = "dark"
+        mainTheme = "light"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
         showAttribute = false
         singlePage = false
@@ -39,7 +39,7 @@ theme = "aafu"
     # Profile section
     [params.profile]
         name = "Lucas Herculano"
-		tagline = "DevOps Engineer"
+		tagline = "SRE/DevOps"
 		location = "Belo Horizonte, BR"
         photo = "profile.jpg"
 
@@ -50,12 +50,12 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "#"
+            url = "https://linkedin.com/in/lucasgherculano"
             title = "LinkedIn"		
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "#"
+            url = "https://github.com/herculan0"
             title = "GitHub"
 
     #Specify what is showin in the Accordion
@@ -68,38 +68,41 @@ theme = "aafu"
         item = "skill"
     [[params.showInAccordion]]
         item = "hobby"
+    [[params.showInAccordion]]
+        item = "education"
 
     [params.aboutme]
-        title = "About Me"
+        title = "sobre mim"
         icon = "fas fa-user"
-        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          description = "**Obs: estou mais barbudo e cabeludo do que na foto, brevemente irei atualizar**, Formado em Análise e Desenvolvimento de Sistemas pelo Pitágoras, trabalho atualmente focado em trazer confiança à produtos de software como Site Reliability Engineer. Alguns dos meus hobbies: programar, ler, cozinhar e plantar. Sou vegano pelos animais, tenho uma cachorra chamada Xena e uma companheira incrível chamada Tainá."
 
     # Experience section
     [params.experience]
-        title = "Experiences"
+        title = "experiências profissionais"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            position = "Estagiário de Infraestrutura"
+            dates = "2018 - *2020*"
+            link = "https://br.linkedin.com/company/prodemge"
+            company = "Prodemg"
+            details = "Linux, Virtualização, Servidores Web. Grupos de Trabalho de DevOps e Blockchain"
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
+            position = "Analista de Suporte"
+            dates = "2020 - 2020"
             link = "#"
             company = "Company Name"
 
     # Education section
     [params.education]
-        title = "Education"
+        title = "Formação"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
+            degree = "Análise e Desenvolvimento de Sistemas"
+            college = "Faculdade Pitágoras"
+            dates = "2018 - 2020"
+            thesis_title = "Sistema of humans on other humans: a study of human behavior."
             thesis_link = "#"
         [[params.education.list]]
             degree = "M.S. in Subject"
@@ -169,28 +172,33 @@ theme = "aafu"
 
     # Skill section
     [params.skill]
-        title = "Skills"
+        title = "habilidades"
         panelId = "skill-panel"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
             skill = "Linux Administration"
-            skillrating = 35
+            skillrating = 55
         [[params.skill.list]]
             skill = "Python" 
-            skillrating = 31
+            skillrating = 35
         [[params.skill.list]]
             skill = "Cloud Computing"
-            skillrating = 25
+            skillrating = 40
+        [[params.skill.list]]
+            skill = "Containers"
+            skillrating = 45
+
 
     # Hobby section
     [params.hobby]
-        title = "Hobbies"
+        title = "hobbies"
         icon = "fas fa-gamepad"
-		
         [[params.hobby.list]]		
-		    hobby = "Cooking"
+		    hobby = "ler"
         [[params.hobby.list]]		
-		    hobby = "Travel"
+		    hobby = "cozinhar"
         [[params.hobby.list]]		
-		    hobby = "Reading"
+		    hobby = "programar"
+        [[params.hobby.list]]		
+		    hobby = "viajar"
