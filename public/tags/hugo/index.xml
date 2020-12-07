@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on </title>
+    <link>https://herculano.xyz/tags/hugo/</link>
+    <description>Recent content in Hugo on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://herculano.xyz/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying an Hugo Website on Amazon S3 and Cloudfront using Terraform</title>
+      <link>https://herculano.xyz/blog/post_1/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://herculano.xyz/blog/post_1/</guid>
+      <description>Tô bem animado pra escrever meu primeiro tutorial no meu mais novo blog/terreno pessoal na interwebs. Sinta-se à vontade pra me dar um feedback ou mandar alguma sugestão de alteração. Primeiro, vamos criar nosso website em Hugo e usar um tema pra ele ficar com algum estilo.
+Obs: Se você não conhece o hugo ainda, visita o Quickstart deles, é bem maneiro e a documentação é bem sucinta e direta ao ponto [https://gohugo.</description>
+    </item>
+    
+  </channel>
+</rss>
